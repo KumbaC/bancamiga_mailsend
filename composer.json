@@ -1,0 +1,21 @@
+{
+    "name": "bancamiga/mailer",
+    "description": "Librería para enviar correos con archivos adjuntos en proyectos Laravel.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Bancamiga\\Mailer\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Puerta",
+            "email": "antonio.puerta@bancamiga.com"
+        }
+    ]
+}
